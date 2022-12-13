@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins';
+}
+body{
+    background-image: url(/assets/retro-living-room-interior-design_53876-145503.webp);
+    background-size: cover;
+    padding: 50px;
+}
+
+/* Nav */
+nav{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    border-bottom: 2px solid #fff;
+    gap: 50px;
+}
+
+.menulist{
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.call{
+    display: flex;
+    gap: 5px;
+}
+
+.icon{
+    font-size: 35px;
+    transform: rotate(-45deg);
+}
+
+/* Main */
+
+main{
+    margin-top: 50px;
+    display: flex;
+}
+
+.left-div{
+    padding: 120px 0 150px 100px;
+}
+
+.left-div h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+.left-div button{
+    border: 3px solid #fff;
+    padding: 15px 40px;
+    color: #fff;
+    font-size: 30px;
+    background-color: transparent;
+    border-radius: 40px;
+}
+
+.icon1{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 5px;
+    background-color: #fff;
+    width: 100px;
+}
+
+.Box1{
+    top: 30%;
+    left: 70%;
+    padding: 25px;
+    position: absolute;
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.Box2{
+    top: 60%;
+    left: 50%;
+    padding: 25px;
+    position: absolute;
+    max-width: 300px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.Box1 p{
+    color: #fff;
+}
+
+.Box2 p{
+    color: #fff;
+}
+
+.Box2 .line {
+    position: absolute;
+    top: 30px;
+    left: -99px;
+    transform: rotate(180deg);
+}
+
+.Box1 .line{
+    position: absolute;
+    top: 218px;
+    left: 240px;
+    transform: rotate(90deg);
+
+}
+
